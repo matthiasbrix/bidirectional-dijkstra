@@ -18,7 +18,7 @@ make all
 ## How to run 
 
 ```
-./bin/main source \<DIMACS SSSP input file\> \<source vertex\> \<target vertex\> 
+./bin/main source <DIMACS SSSP input file> <source vertex> <target vertex> 
 ```
 
 ## Contributors
