@@ -2,6 +2,7 @@ CC = gcc
 CFLAGS =-g -O3 -Wall -Wextra -pedantic -std=gnu11
 LDFLAGS=-lm -lsodium
 
+MKDIR_P = mkdir -p
 BINDIR = bin
 SOURCEDIR =
 
@@ -12,6 +13,7 @@ all : minheap graph filehandling bdj main
 rebuild : clean all
 
 minheap : minheap.c minheap.h
+	@mkdir -p $(BINDIR)
 	$(CC) $(CFLAGS) -c $< -o $(BINDIR)/$@.o
 
 graph : graph.c graph.h $(BINDIR)/minheap.o
