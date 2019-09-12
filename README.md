@@ -11,7 +11,7 @@ Bidirectional Dijkstra is a way quick way to solve a shortest path query between
 ## Installation
 
 ```
-git clone https://github.com/matthiasbrix/bidirectional-dijkstra.git <br />
+git clone https://github.com/matthiasbrix/bidirectional-dijkstra.git
 make all
 ```
 
